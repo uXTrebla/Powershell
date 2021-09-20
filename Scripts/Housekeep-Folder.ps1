@@ -4,7 +4,7 @@
    
     .DESCRIPTION
         Function to check the last modified timestamp of all files within a folder and delete files that are more than X days old
-
+	
     .SYNTAX
         Housekeep-Folder [-Path] <System.String[]> [-Days] <System.Integer> [-IncludeEmptyFolder]
    
