@@ -91,7 +91,8 @@ function Housekeep-Folder {
 
             Get-ChildItem $Path -Recurse -Force -ea 0 |
             ? {$_.PsIsContainer -eq $True} |
-            ? {$_.getfiles().count -eq 0} |
+            ? {$_.GetFiles().Count -eq 0} |
+	    ? {$_.GetDirectories().Count -eq 0} |
             ForEach-Object {
                 If ($WhatIfPreference) { 
                     $_ | Remove-Item -Force -Recurse -WhatIf
