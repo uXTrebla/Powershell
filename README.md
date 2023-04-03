@@ -5,6 +5,7 @@ Started a repository to document my journey on Powershell scripting.
 | Script                                               | Description                                                        | 
 | ---------------------------------------------------- | ------------------------------------------------------------------ | 
 | [Housekeep-Folder.ps1](Scripts/Housekeep-Folder.ps1) | Housekeep a folder by deleting files and empty folders more than X days old |
+| [Write-LogFile.ps1](Scripts/Write-LogFile.ps1) | Function to write message with severity type to a physical file with timestamp |
 
 
 # License & Copyright
