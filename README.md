@@ -10,4 +10,4 @@ Started a repository to document my journey on Powershell scripting.
 
 # License & Copyright
 
-This open source release is licensed under the CC0 license. All trademarks are the property of their respective owners.
+This open source release is licensed under the [MIT license]([url](https://github.com/uXTrebla/Powershell/blob/main/LICENSE)). All trademarks are the property of their respective owners.
